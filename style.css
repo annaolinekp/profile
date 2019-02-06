@@ -1,7 +1,7 @@
 h1 {
   color: #f9989f;
   font-family: 'Staatliches', cursive;
-  font-size: 42px;
+  font-size: 50px;
   font-weight: 900;
   line-height: 20px;
 }
@@ -9,15 +9,15 @@ h1 {
 h2 {
   color: #f9989f;
   font-family: 'Staatliches', cursive;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 18px;
 }
 
 body {
   color: #3c415e;
   font-family: 'Staatliches', cursive;
-  font-size: 18px;
-  line-height: 18px;
+  font-size: 24px;
+  line-height: 24px;
 }
 
 a {
@@ -37,19 +37,22 @@ div {
   margin: 0 auto;
 }
 
-.img-cirlce {
+.img-circle {
   border-radius: 50%;
-  width: 130px;
+  width: 160px;
 }
 
 .container {
   width: 700px;
   margin: 40px auto;
+  background-image: url("images/White flowers.jpg") ;
+  background-size: cover;
+  opacity: 0.9;
 }
 
 .card-white {
-  background-color: white;
-  padding: 40px;
+  background-color: rgba(0,0,0,0.1);
+  padding: 30px;
   box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
   border-radius: 4px;
   margin: 20px 0px;
@@ -66,8 +69,8 @@ div {
   display: inline-block;
 }
 
-.green-btn {
-  background-color: #a2eae2;
+.pink-btn {
+  background-color: #f9989f;
   color: white;
   padding: 10px 10px;
   border-radius: 4px;
